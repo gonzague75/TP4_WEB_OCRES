@@ -1,11 +1,18 @@
-import React from "react";
+import React from "react"
 
 
 
-export default class Text extends React.Component {
+
+export default class Text extends React.Component{
     render(){
-        return (
-            <div>Hello World</div>
+        return(
+            <div>
+                
+                {this.props.text}
+
+                
+            </div>
         )
+
     }
 }

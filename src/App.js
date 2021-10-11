@@ -1,13 +1,17 @@
 /*import logo from './logo.svg';*/
-
-
-import Text from './text.js';
 import './App.css';
+import Text from './text.js';
+
+
+
 
 function App() {
   return (
+    <div>
+      <Text text='Hello'/>
+      <Text text='world'/>
+    </div>
 
-    <Text/>
 
 
 
@@ -26,11 +30,10 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-    */
+    </div>*/
 
 
-    
+
   );
 }
 
